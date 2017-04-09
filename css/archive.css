@@ -1,8 +1,42 @@
-h1 {
-    font-size: 16px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+#archive-outer {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
-h1>a {
-	font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", 微软雅黑, 宋体, Tahoma, Arial, Helvetica, STHeiti;
+#archive-inter {
+  width: 80%;
+  background-color: #fff;
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 2px #d3d3d3;
+  overflow: hidden;
+}
+#archive-year {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: theme_color;
+  font-family: theme_font_family;
+}
+#archive-inter a {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  color: theme_color;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  font-family: theme_font_family;
+}
+#archive-inter a:hover {
+  color: theme_highlight_color;
+  background-color: #f5f5f5;
+}
+#archive-item-time {
+  color: #808080;
+  font-size: 0.5em;
+  padding-right: 20px;
 }
